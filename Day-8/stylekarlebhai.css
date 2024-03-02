@@ -1,0 +1,17 @@
+.box1{
+    background-color: aqua;
+transform: translate(1px,10px);
+}
+.box2{
+    background-color: aqua;
+transform: rotate(-45deg);
+}
+.box3{
+    margin: 150px;
+    background-color: aqua;
+transform: scale(1,1);
+}
+.box4{
+    background-color: aqua;
+    transform: skew(20deg);
+}
