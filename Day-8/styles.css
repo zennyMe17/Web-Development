@@ -1,0 +1,16 @@
+.flag{
+    width: 150px;
+    height: 200px;
+    border-radius: 1px solid black;
+    margin: 10px;
+    background-image: linear-gradient(orange,white,green);
+}
+h1{
+    text-shadow: 3px 3px 3px rgb(242, 151, 166), 6px 6px 6px green;
+}
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px green;
+}
