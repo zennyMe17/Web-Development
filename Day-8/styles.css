@@ -1,7 +1,7 @@
 .flag{
     width: 150px;
     height: 200px;
-    border-radius: 1px solid black;
+    border: 1px solid black;
     margin: 10px;
     background-image: linear-gradient(orange,white,green);
 }
