@@ -1,0 +1,33 @@
+p{
+    position: static;
+}
+div
+{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-color: pink;
+}
+#box1{
+    position: fixed;
+    top: 50px;
+}
+#box2{
+    position: relative;
+    top: 100px;
+}
+#box3{
+    position: relative;
+    top: 150px;
+}
+#box4{
+    position: sticky;
+    top: 200px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 2000px;
+    background-color: khaki;
+}
