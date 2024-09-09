@@ -1,0 +1,16 @@
+.container{
+    background-color: brown;
+    border: 1px solid black;
+    height: 500px;
+    display: grid;
+    
+    grid-template-columns: 150px 1fr 1fr 150px;
+    grid-template-rows: 30px 1fr 30px;
+
+    gap: 2px;
+}
+
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+}
