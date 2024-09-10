@@ -4,13 +4,28 @@
     height: 500px;
     display: grid;
     
-    grid-template-columns: 150px 1fr 1fr 150px;
-    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 150px 1fr 1fr;
+    grid-template-rows: 30px 1fr 30px ;
 
-    gap: 2px;
+    gap: 3px;
 }
 
 .box{
     background-color: aqua;
     border: 1px solid black;
 }
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#box5{
+    grid-column-start: 1;
+    grid-column-end: 4;  
+} 
